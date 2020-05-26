@@ -28,6 +28,7 @@ Run following commands in Command Prompt OR Open [Git Bash](https://git-scm.com/
 - Create a MySQL database for the project.
 - Copy .env.example to .env file and add your app settings and database settings in .env file: `cp .env.example .env`
 - Run `composer install`. This will install all vendor dependencies and Laravel Framework.
+- Configure developers account for facebook and google to get **client_id** and **client_secret** and also put in .env file.
 - Run `php artisan key:generate`. This will generate new APP_KEY.
 - Run `php artisan migrate`. This will run the [Migration](https://laravel.com/docs/5.5/migrations) and will create tables for authentication module.
 - Run `php artisan serve`. This will run Laravel default web server and you can access it using `http://localhost:8000`
